@@ -4,7 +4,7 @@ In this article we will describe the many components of the Regular Expression t
 
 ## Summary
 
-In this article regular expression will be discribed, also called Regex, specifically that of matching an email.
+Regular expressions are a criteria of characters that speficies a pattern that you are looking to match. They are not language specific, rather used in every language to search imputed value to make sure that the patterns align. These patterns can help find sequences such as emails, phone numbers, usernames, password, etc to help a developer gather the information that is needed.
 ## Table of Contents
 
 - [Anchors](#anchors)
@@ -20,9 +20,6 @@ In this article regular expression will be discribed, also called Regex, specifi
 - [Look-ahead and Look-behind](#look-ahead-and-look-behind)
 
 ## Regex Components
-![image that shows a regex function](./images/regex.png)
-
-
 /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 ### Anchors
 The symbols "^" and "$" are both to be considered anchors. The "^" is considered to be the starting anchor. The starting anchor begins the search for the following character.
@@ -50,4 +47,4 @@ Bracket Expressions are used to define a range of characters that we want to mat
 ## Author
 Katherine Reiner 
 
-[View my Github!](https://github.com/reinerkp)# RegexTutorialEmail
+[View my Github!](https://github.com/reinerkp)
