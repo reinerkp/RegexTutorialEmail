@@ -39,13 +39,7 @@ Flags are used to divine additional limits and fuctionality to the structure of 
 An email has three different main parts to the stucture. The ID or Username (scottsmith), the domain (gmail), and lastly the network (.com). Although a regex is one large expression. It contains subexpression that might each have their own criteria. The subsections and grouping are greated by seperating each group by a parentheses within the main parantheses, such as (()). Within the email expression we can see three different groupings /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/.
 ### Bracket Expressions
 Bracket Expressions are used to define a range of characters that we want to match with. In the email example, the expression [a-z\.] can be seen that we are specifically looking for something that includes any letter between a-z and it can also incluse a period. The main takeaway here, is that we are given that specifc range with the expression that is provided in the brackets.
-### Greedy and Lazy Match
 
-### Boundaries
-
-### Back-references
-
-### Look-ahead and Look-behind
 
 ## Author
 Katherine Reiner 
